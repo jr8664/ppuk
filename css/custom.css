@@ -1,0 +1,320 @@
+.fab {
+    background-color: #0c66ce;
+}
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Page loader
+2.0 Blockquote
+3.0 Progress bar
+4.0 Main menu light version hover
+5.0 Services panel 1
+6.0 Services panel 2
+7.0 Content block 2 read more hover
+8.0 Portfolio items
+9.0 Submit form active hover
+10.0 More items link hover
+11.0 Single page and post
+12.0 Sidebar
+--------------------------------------------------------------*/
+
+
+/********************************************
+1.0 Page loader
+*********************************************/
+.loader {
+	border-left: 0.5em solid #0c66ce;
+}
+
+/********************************************
+2.0 Blockquote
+*********************************************/
+blockquote {
+	border-left: #0c66ce solid 5px;
+}
+
+/********************************************
+3.0 Progress bar
+*********************************************/
+.progress-bar {
+	background-color: #0c66ce;
+}
+
+/********************************************
+4.0 Main menu light version hover
+*********************************************/
+#main-menu.light .nav-menu li:hover a {
+	color: #0c66ce;
+}
+
+#main-menu.light .nav-menu li:hover span:before,
+#main-menu.light .nav-menu li:hover span:after {
+	background-color: #0c66ce;
+}
+
+#main-menu.light .dropdown-menu > ul > li:hover > a {
+	color: #0c66ce !important;
+}
+
+#main-menu.light .dropdown-menu > ul > li:hover > span:before,
+#main-menu.light .dropdown-menu > ul > li:hover > span:after {
+	background-color: #0c66ce !important;
+}
+
+#main-menu.light .nav-menu li.active a {
+	color: #0c66ce;
+}
+
+#main-menu.light .nav-menu li.active > span:before,
+#main-menu.light .nav-menu li.active > span:after {
+	background-color: #0c66ce !important;
+}
+
+/********************************************
+5.0 Services panel 1
+*********************************************/
+/* Service icon background color hover */
+.services-panel1 .service-box:hover {
+	background-color: #00838f;
+}
+
+/********************************************
+6.0 Services panel 2
+*********************************************/
+/* Service icon background color hover */
+.services-panel2 .service-box .icon-hover {
+	background-color: #0c66ce;
+}
+
+/* Service title hover */
+.services-panel2 .service-detail h3 a:hover {
+	color: #0c66ce;
+}
+
+/* Service title hover dark version */
+.services-panel2.dark .service-detail h3 a:hover {
+	color: #0c66ce;
+}
+
+/********************************************
+7.0 Content block 2 read more hover
+*********************************************/
+.content-block2 .content-block-detail .read-more:hover {
+	color: #488fdb;
+}
+
+.content-block2 .content-block-detail .read-more:hover:after {
+	color: #488fdb;
+}
+
+.content-block2 .carousel-item.dark .content-block-detail .read-more:hover {
+	color: #488fdb;
+}
+
+.content-block2 .carousel-item.dark .content-block-detail .read-more:hover:after {
+	color: #488fdb;
+}
+
+/********************************************
+8.0 Portfolio items
+*********************************************/
+/* Portfolio filter hover */
+.portfolio-filter li.filter:hover,
+.portfolio-filter li.filter.selected {
+	color: #0c66ce;
+}
+
+/* Portfolio link icon hover */
+.portfolio-item .mega-hoverlink:hover i,
+.portfolio-item .mega-hoverview:hover i {
+	color: #0c66ce;
+}
+
+/* Dark version portfolio filter hover */
+.dark .portfolio-filter li.filter:hover,
+.dark .portfolio-filter li.filter.selected {
+	color: #0c66ce;
+}
+
+/* Portfolio thumbnail hover */
+.portfolio-item .mega-hover {
+	background-color: rgba(12,102,206,0.85);
+}
+
+/* Related work thumbnail hover */
+.related-work-thumb .mega-hover {
+	background-color: rgba(12,102,206,0.85);
+}
+
+/********************************************
+9.0 Submit form active hover
+*********************************************/
+.submit-form input:focus ~ label,
+.submit-form textarea:focus ~ label,
+.submit-form input:valid ~ label,
+.submit-form textarea:valid ~ label {
+	color: #0c66ce;
+}
+
+.submit-form input ~ span,
+.submit-form textarea ~ span {
+	background: #0c66ce;
+}
+
+/********************************************
+10.0 More items link hover
+*********************************************/
+.more-item-link a:hover {
+	color: #488fdb;
+}
+
+/********************************************
+11.0 Single page and post
+*********************************************/
+/* Single post meta hover */
+.single-post-meta ul li a:hover {
+	color: #0c66ce;
+}
+
+/* Related work link icon hover */
+.related-work-thumb .mega-hoverlink:hover i,
+.related-work-thumb .mega-hoverview:hover i {
+	color: #0c66ce;
+}
+
+/* Post date background color */
+.date-wrap {
+	background-color: #0c66ce;
+	border-bottom: #00838f solid 3px;
+}
+
+/* Blog list meta hover */
+.blog-entry .blog-meta ul li a:hover {
+	color: #0c66ce;
+}
+
+/* Single post social share color hover */
+.post-share-bottom ul li a:hover {
+	background-color: #0c66ce;
+}
+
+/* Single post pagination icon */
+.post-pagination span:before {
+	color: #0c66ce;
+}
+
+/* Single post pagination hover */
+.post-pagination h4 a:hover {
+	color: #0c66ce;
+}
+
+/* Related post title hover */
+.related-post-title a:hover {
+	color: #0c66ce;
+}
+
+/* Comment reply color */
+.comment-reply {
+	color: #0c66ce;
+}
+
+/********************************************
+12.0 Sidebar
+*********************************************/
+/* Recent post title hover */
+.recent-post-detail h4 a:hover {
+	color: #0c66ce;
+}
+
+/* Category list icon */
+.widget_categories ul li:before {
+	color: #0c66ce;
+}
+
+/* Category list hover */
+.widget_categories ul li a:hover {
+	color: #0c66ce;
+}
+
+/* Tag cloud bg color */
+.widget_tag_cloud .tagcloud a {
+	background-color: #0c66ce;
+}
+
+/* Tag cloud bg color hover */
+.widget_tag_cloud .tagcloud a:hover {
+	background-color: #488fdb;
+}
+
+.services-panel1 .service-box:hover {
+    background-color: #0c66ce !important;
+}
+
+/*pricing*/
+
+.pricing {
+  position: relative;
+	border: 0px;
+	padding: 0px;
+	color: #ffffff;
+	background-color: #000000;
+}
+.pricing .bg-white,
+.pricing .bg-blue {
+  position: absolute;
+  right: 0;
+}
+.pricing .bg-white {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 20px;
+}
+.pricing .bg-blue {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  top: 0;
+  bottom: 0;
+}
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+  z-index: 9;
+	border: 0px;
+	margin: 0px;
+}
+
+.price-table tr
+{
+	border-bottom: 0px;
+}
+.price-table .min {
+  height: 10px;
+  padding: 5px;
+}
+.price-table tr:not(:last-child) {
+  border: 0px;
+}
+
+.price-table tr:nth-child(2n) td:nth-child(2n) {
+  background: #2160b6;
+}
+.price-table tr:nth-child(2n) td:last-child {
+  background: #000000;
+}
+
+.price-table tr td {
+  padding: 20px;
+}
+.price-table tr td:not(:first-child) {
+  text-align: center;
+}
+.price-table tr td:nth-child(2n) {
+  background: #5c87bd;
+  color: #fff;
+}
+
+.price-table tr td:nth-child(4n) {
+  background: #000000;
+  color: #fff;
+}
